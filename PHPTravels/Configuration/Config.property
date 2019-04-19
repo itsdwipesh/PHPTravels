@@ -1,0 +1,9 @@
+ChromeDriver=D:/chromedriver_win32 (1)/chromedriver.exe
+IEDriver=D:/IEDriverServer_32.exe
+PhantomJS=D:/phantomjs.exe
+URL=https://www.phptravels.net/
+Valid_email=user@phptravels.com
+Valid_password=demouser
+JOHNY=//div[@class='container']//following::a[@data-toggle='dropdown'][4]
+Logout=//li[@class='open']//following::a[text()='  Logout']
+Hotel=//div[text()='Locations']//following::ul//li

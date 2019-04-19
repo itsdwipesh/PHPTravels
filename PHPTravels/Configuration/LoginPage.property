@@ -1,0 +1,4 @@
+title=Login
+Email=//input[@name='username']
+Password=//input[@name='password']
+LOGIN=//button[text()='Login']

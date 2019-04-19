@@ -1,0 +1,8 @@
+URL=https://www.phptravels.net/
+title=PHPTRAVELS | Travel Technology Partner
+MYACCOUNT=//li[@id='li_myaccount']//following::a[contains(text(),'Account')][2]
+Login=//li[@id='li_myaccount'][@class]//following::a[text()=' Login']
+flights=//a[@title='Flights']
+source=//div[@id='select2-drop']//input
+destination=//div[@id='select2-drop']//input
+search=//div[@id='flights']//following::button[contains(text(),'Search')]

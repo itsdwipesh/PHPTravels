@@ -1,0 +1,6 @@
+title=Search Results
+HotelName=//b[contains(text(),'HOTEL_NAME')]
+Currency=//b[contains(text(),'HOTEL_NAME')]//following::small
+Amount=//b[contains(text(),'HOTEL_NAME')]//following::b
+Details=//b[contains(text(),'HOTEL_NAME')]//following::button[text()='Details']
+

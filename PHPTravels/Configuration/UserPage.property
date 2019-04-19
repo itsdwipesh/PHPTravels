@@ -1,0 +1,6 @@
+HOTELS=//span[contains(text(),'Search by Hotel')]
+HotelInput=//div[@id='select2-drop']/div/input
+HotelSelect=//div[text()='Locations']//following::ul//li
+Checkin=//input[@placeholder='Check in']
+Checkout=//input[@placeholder='Check out']
+SEARCH=//button[text()=' Search']
