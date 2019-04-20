@@ -5,8 +5,8 @@
     <classes>
       <class name="com.test.phptravelsUser.TestSuit1">
         <methods>
+          <include name="testCase1"/>
           <include name="tearDown"/>
-          <include name="testCase3" invocation-numbers="0 1 2"/>
           <include name="generateLog"/>
           <include name="launchBrowser"/>
           <include name="beforeClass"/>
